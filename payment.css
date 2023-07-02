@@ -1,0 +1,90 @@
+.container{
+    border: 3px solid black;
+    /* width: 100%; */
+    height: 100%;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(242, 228, 228);
+}
+h1{
+    text-align: center;
+}
+#Name{
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#Address{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Email{
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#Pincode{
+    display: flex;
+    flex-direction: column;
+}
+#pincode{
+    padding: 10px;
+}
+#Cards{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+}
+#CardType{
+    display: flex;
+    flex-direction: column;
+}
+#cardtype{
+    padding: 10px;
+}
+#CardNumber{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#cardnumber{
+    padding: 10px;
+}
+#Date{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#date{
+    padding: 10px;
+}
+#CVV{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#cvv{
+    padding: 10px;
+}
+#button{
+    margin-top: 20px;
+    
+}
+#btn{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(40, 141, 40);
+    font-size: 20px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment Form</title>
+</head>
+<body>
+<div class="container">
+    <h1>Payment Form</h1>
+    <hr>
+    <section class="mid">
+        <h2 class="head">User Information</h2>
+        <div id="Name">
+        Name*
+        <input type="text" name="Name" id="name" placeholder=" Enter your Name">
+        </div>
+        <div id="Gender">
+        Gender:
+        Male<input type="checkbox" name="gender" id="male"> Female <input type="checkbox" name="gender" id="female">
+        </div>
+        <div id="Address">
+        Address: <br><textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <div id="Email">
+        Email: <input type="email" name="email" id="email" placeholder="Enter your Email id">
+        </div>
+        <div id="Pincode">
+        Pincode: <input type="number" name="" id="pincode" placeholder="Enter your Local PIN Number:">
+        </div>
+        <h2 class="head">Payment Information</h2> 
+        <div id="Cards">
+        Accepted Cards: 
+        <div id="images">
+            <img src="images.jpeg" alt=""> <img src="images (1).jpeg" alt=""> <img src="images (2).jpeg" alt=""> <img src="images (3).jpeg" alt="">
+        </div>
+        </div>
+        <div id="CardType">
+        Card Type:
+        <select name="cardtype" id="cardtype" placeholder="--Select Card Type--">
+            <option value="">Rupay</option>
+            <option value="">Visa</option>
+            <option value="">Master Card</option>
+            <option value="">UPI</option>
+        </select>
+        </div>
+        <div id="CardNumber">
+        Card Number*:
+        <input type="number" name="card" id="cardnumber" placeholder="1111-2222-3333-4444">
+        </div>
+        <div id="Date">
+        Expiration Date
+        <input type="date" name="" id="date">
+        </div>  
+        <div id="CVV">
+        CVV :
+        <input type="number" name="" id="cvv" placeholder="123">
+        </div>
+        <div id="button">
+            <button id="btn">Pay Now</button>
+        </div>
+    </section>
+</div>
+</body>
+</html>
